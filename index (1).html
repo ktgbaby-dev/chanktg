@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KAALIM (THE GREAT) — CH. 01</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Permanent+Marker&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="intro" class="intro">
+  <div class="static-noise"></div>
+  <div class="intro-text" id="intro-text">STATIC</div>
+  <button id="skip-intro" class="skip-btn">SKIP INTRO</button>
+</div>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#top" class="logo">KAALIM<span>(THE GREAT)</span></a>
+    <nav class="main-nav">
+      <a href="#on-air">ON AIR</a>
+      <a href="#library">MUSIC</a>
+      <a href="#programming">VISUALS</a>
+      <a href="#character">ABOUT</a>
+    </nav>
+    <span class="ch-badge">CH. 01</span>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="broadcast-tag">ON AIR <span class="dot"></span> LIVE SIGNAL · VOL. 001</p>
+        <h1 class="glitch-heading">NOW<br>TUNING IN...</h1>
+        <h2 class="artist-name">KAALIM<span>(THE GREAT)</span></h2>
+        <p class="tagline">THE CHANNEL FOR MISFITS.</p>
+        <p class="hero-sub">A broadcast for the misfits. Sharp bars, off-kilter melodies, and the channel staying live after hours.</p>
+        <a href="#on-air" class="btn-cta">LISTEN NOW ▶</a>
+        <p class="no-ads">no ads. just signal.</p>
+      </div>
+      <div class="hero-tv">
+        <div class="tv-frame">
+          <div class="tv-screen">
+            <div class="tv-static"></div>
+            <span class="tv-label">CH. 01</span>
+          </div>
+          <span class="tv-tag tv-tag-1">ON AIR</span>
+          <span class="tv-tag tv-tag-2">LIVE SIGNAL</span>
+          <span class="tv-tag tv-tag-3">VOL. 001</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>NEW SINGLE OUT NOW ✦ SHAWN SPENCER ✦ CH. 01 ✦ TUNE IN ✦ ALL EYES ON US ✦</span>
+      <span>NEW SINGLE OUT NOW ✦ SHAWN SPENCER ✦ CH. 01 ✦ TUNE IN ✦ ALL EYES ON US ✦</span>
+    </div>
+  </div>
+
+  <section id="on-air" class="on-air">
+    <div class="wrap">
+      <p class="section-eyebrow">NOW PLAYING</p>
+      <h2 class="section-title">On Air</h2>
+      <div class="player-panel">
+        <div class="player-art"></div>
+        <div class="player-info">
+          <div class="player-top">
+            <span class="chip">CH. 01</span>
+            <span class="chip chip-active">SIGNAL: ACTIVE</span>
+          </div>
+          <p class="player-meta">SINGLE · 2024</p>
+          <h3 class="player-title">SHAWN SPENCER</h3>
+          <p class="player-artist">KAALIM</p>
+          <div class="player-controls">
+            <button class="play-btn" id="play-btn">▶</button>
+            <div class="progress-track"><div class="progress-fill"></div></div>
+            <span class="time">0:42 / 2:58</span>
+          </div>
+          <div class="waveform" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="stream-links">
+            <a href="https://open.spotify.com/track/46BhcS5iOWwADoDvnIydoB?si=fb01684b353e4869" class="stream-link">SPOTIFY →</a>
+            <span class="stream-link soon">APPLE MUSIC SOON</span>
+            <span class="stream-link soon">YOUTUBE SOON</span>
+            <span class="stream-link soon">AUDIOMACK SOON</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="marquee marquee-alt">
+    <div class="marquee-track">
+      <span>THE LIBRARY ✦ STATIC SEASON ✦ CHANNEL ZERO ✦</span>
+      <span>THE LIBRARY ✦ STATIC SEASON ✦ CHANNEL ZERO ✦</span>
+    </div>
+  </div>
+
+  <section id="library" class="library">
+    <div class="wrap">
+      <p class="section-eyebrow">ARCHIVE</p>
+      <h2 class="section-title">The Library</h2>
+      <div class="library-filters">
+        <button class="filter-btn active" data-filter="all">ALL</button>
+        <button class="filter-btn" data-filter="singles">SINGLES</button>
+        <button class="filter-btn" data-filter="eps">EPS</button>
+        <button class="filter-btn" data-filter="albums">ALBUMS</button>
+      </div>
+      <div class="library-grid">
+        <a href="https://open.spotify.com/track/46BhcS5iOWwADoDvnIydoB?si=fb01684b353e4869" class="library-card" data-cat="singles" style="--rot:-2deg; --bg: var(--pink);">
+          <span class="library-num">01</span>
+          <h3>SHAWN SPENCER</h3>
+          <p>2024 · SINGLE</p>
+        </a>
+        <a href="https://open.spotify.com/track/16L0Xg3oJfcpKfOkfMyhcc?si=9576d038af184fd5" class="library-card" data-cat="singles" style="--rot:1.5deg; --bg: var(--blue);">
+          <span class="library-num">02</span>
+          <h3>TBM (FREESTYLE)</h3>
+          <p>2024 · SINGLE</p>
+        </a>
+        <a href="https://open.spotify.com/track/6SKQ6LYlLXtWGURuReWrwZ?si=7c1c28917f8c4bcb" class="library-card" data-cat="singles" style="--rot:-1deg; --bg: var(--lime);">
+          <span class="library-num">03</span>
+          <h3>STAY TRUE</h3>
+          <p>2024 · SINGLE</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="programming" class="programming">
+    <div class="wrap">
+      <p class="section-eyebrow">VISUALS</p>
+      <h2 class="section-title">Programming</h2>
+      <div class="programming-grid">
+        <div class="program-card" style="--rot:-1.5deg;">
+          <span class="program-tag">PROGRAM 001 · 03:12</span>
+          <p class="program-type">MUSIC VIDEO</p>
+          <h3>SHAWN SPENCER</h3>
+        </div>
+        <div class="program-card" style="--rot:1deg;">
+          <span class="program-tag">PROGRAM 002 · 11:40</span>
+          <p class="program-type">LIVE SESSION</p>
+          <h3>STATIC SEASON LIVE</h3>
+        </div>
+        <div class="program-card" style="--rot:-1deg;">
+          <span class="program-tag">PROGRAM 003 · 07:05</span>
+          <p class="program-type">BEHIND THE SIGNAL</p>
+          <h3>STUDIO NIGHTS</h3>
+        </div>
+        <div class="program-card" style="--rot:1.5deg;">
+          <span class="program-tag">PROGRAM 004 · 02:48</span>
+          <p class="program-type">VISUALIZER</p>
+          <h3>CHANNEL ZERO</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="character" class="character">
+    <div class="wrap character-grid">
+      <div class="character-art">
+        <span class="exhibit-tag">EXHIBIT A</span>
+      </div>
+      <div class="character-copy">
+        <p class="section-eyebrow">ABOUT</p>
+        <h2 class="section-title">Meet the Character</h2>
+        <p class="lede">KAALIM is a creator from somewhere between reality and cartoon.</p>
+        <p>Making music for the misfit, the dreamer, the rebel. Every record is an episode; every show is a broadcast.</p>
+        <p class="stay-tuned">Stay tuned — the signal only gets stranger from here.</p>
+        <dl class="stat-labels">
+          <div><dt>SPECIES</dt><dd>HUMAN?</dd></div>
+          <div><dt>ORIGIN</dt><dd>UNKNOWN</dd></div>
+          <div><dt>STATUS</dt><dd>ACTIVE</dd></div>
+          <div><dt>SIGNAL</dt><dd>STRONG</dd></div>
+          <div><dt>LOCATION</dt><dd>BETWEEN REALITY &amp; CH 301</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section id="tune-in" class="tune-in">
+    <div class="wrap">
+      <p class="section-eyebrow">FREQUENCIES</p>
+      <h2 class="section-title">Tune In</h2>
+      <div class="freq-grid">
+        <a href="#" class="freq-link"><span>IG</span> INSTAGRAM <em>SIGNAL 01 →</em></a>
+        <a href="#" class="freq-link"><span>TT</span> TIKTOK <em>SIGNAL 02 →</em></a>
+        <a href="#" class="freq-link"><span>YT</span> YOUTUBE <em>SIGNAL 03 →</em></a>
+        <a href="#" class="freq-link"><span>X</span> X <em>SIGNAL 04 →</em></a>
+        <a href="https://open.spotify.com/artist/3flR9GaAQg2kEeEQfzPenJ" class="freq-link"><span>SP</span> SPOTIFY <em>SIGNAL 05 →</em></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <p class="section-eyebrow">CONTACT</p>
+      <h2 class="section-title">Transmit a Message</h2>
+      <div class="contact-panel">
+        <div class="contact-tags">
+          <span>BOOKING</span><span>MANAGEMENT</span><span>COLLAB</span><span>PRESS</span>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <textarea name="message" rows="4" placeholder="Message" required></textarea>
+          <button type="submit" class="btn-cta">TRANSMIT →</button>
+          <p class="form-note" id="form-note" hidden>Transmission received. (Concept form — no message was actually sent.)</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p class="footer-logo">KAALIM</p>
+    <p class="footer-tag">THE CHANNEL. THE MUSIC. THE WORLD.</p>
+    <p class="footer-ch">CH. 01</p>
+    <p class="footer-thanks">Thanks for tuning in.</p>
+    <div class="footer-socials">
+      <a href="#">INSTAGRAM</a><a href="#">TIKTOK</a><a href="#">YOUTUBE</a><a href="#">X</a>
+      <a href="https://open.spotify.com/artist/3flR9GaAQg2kEeEQfzPenJ">SPOTIFY</a>
+    </div>
+    <p class="footer-copy">© 2026 KAALIM (THE GREAT)</p>
+    <p class="signal-lost">SIGNAL LOST...</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
